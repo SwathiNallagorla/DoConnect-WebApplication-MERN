@@ -1,0 +1,99 @@
+.chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chat-icon {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.chat-box {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 300px;
+  border: 1px solid #ccc;
+  background-image: url('https://images.pexels.com/photos/12815472/pexels-photo-12815472.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire chat box */
+  background-position: center; /* Center the image */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  color: white; /* Change text color for contrast */
+}
+
+.user-list {
+  border-bottom: 1px solid #9f5656;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.user-list div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.user-list div:hover {
+  background-color: #82a6b0; /* Change hover color */
+}
+
+.messages {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.sent {
+  text-align: right;
+  background-color: #007bff; /* Sent message color */
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  align-self: flex-end; /* Align sent messages to the right */
+}
+
+.received {
+  text-align: left;
+  background-color: #f1f1f1; /* Received message color */
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  align-self: flex-start; /* Align received messages to the left */
+}
+.messages {
+  display: flex;
+  flex-direction: column; /* Arrange messages vertically */
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.notification-badge {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0 5px;
+  margin-left: 5px;
+}
+
+.welcome-message {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Hide chat icon for admin users */
+.admin {
+  display: none;
+}

@@ -1,0 +1,89 @@
+/* General styles for the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the "Add User" button */
+.add-user-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.add-user-btn:hover {
+  background-color: #218838;
+}
+
+/* Card container styles */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Individual card styles */
+.card {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  font-size: 1.6em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.1em;
+  color: #555;
+  margin: 8px 0;
+}
+
+.card .card-btns {
+  margin-top: 20px;
+}
+
+.card .card-btns a, .card .card-btns button {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.card .card-btns a:hover, .card .card-btns button:hover {
+  background-color: #0056b3;
+}
+.table-odd {
+  background-color: #f2f2f2; /* Light gray for odd rows */
+}
+
+.table-even {
+  background-color: #ffffff; /* White for even rows */
+}

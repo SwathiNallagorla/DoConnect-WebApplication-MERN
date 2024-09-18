@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "question-management",
+			"path": "."
+		},
+		{
+			"name": "QuestionManagement",
+			"path": "../Express/QuestionManagement"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,103 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "questiontext": "What is the full form of CSS?",
+      "options": [
+        "Cascading Style Sheet",
+        "Cascading Show Sheet",
+        "Cascading Store Sheet",
+        "Cascading Short Sheet"
+      ],
+      "correctanswer": "Cascading Style Sheet",
+      "category": "CSS"
+    },
+    {
+      "id": "2",
+      "questiontext": "Who is making the Web standards?",
+      "options": [
+        "Google",
+        "Mozilla",
+        "Microsoft",
+        "The World Wide Web Consortium"
+      ],
+      "correctanswer": "The World Wide Web Consortium?",
+      "category": "Web Standards"
+    },
+    {
+      "id": "3",
+      "questiontext": "What is the correct HTML element for inserting a line break?",
+      "options": [
+        "<lb>",
+        "<break>",
+        "<br>",
+        "<line>"
+      ],
+      "correctanswer": "<br>",
+      "category": "HTML"
+    },
+    {
+      "id": "4",
+      "questiontext": "Choose the correct HTML element for the largest heading:",
+      "options": [
+        "<heading>",
+        "<h6>",
+        "<head>",
+        "<h1>"
+      ],
+      "correctanswer": "<h1>",
+      "category": "HTML"
+    },
+    {
+      "id": "5ff6",
+      "questiontext": "Test Question 3",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "correctanswer": "option3",
+      "category": "Test"
+    },
+    {
+      "id": "9cac",
+      "questiontext": "Test Question4",
+      "options": [
+        "option1",
+        "option2",
+        "3",
+        "4"
+      ],
+      "correctanswer": "3",
+      "category": "Test"
+    }
+  ],
+  "users":[
+    {
+      "id":"1",
+      "username":"admin1",
+      "password":"admin827",
+      "role":"admin"
+    },
+    {
+      "id":"2",
+      "username":"admin2",
+      "password":"admin327",
+      "role":"admin"
+    },
+    {
+      "id":"3",
+      "username":"user1",
+      "password":"user827",
+      "role":"user"
+    },
+    {
+      "id":"4",
+      "username":"user2",
+      "password":"user327",
+      "role":"user"
+    }
+
+  ]
+}
